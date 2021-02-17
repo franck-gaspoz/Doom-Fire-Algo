@@ -1,0 +1,19 @@
+ModuleID
+ModulePackageID
+ModulePascalCaseID
+ModuleLowerID
+ModuleNamespace
+ModuleTitle
+ModuleDescription
+ModuleShellMinVersion       "1.0.1-beta4"
+ModuleAuthors               Orbital Shell team
+ModuleCopyright             (c) Orbital Shell 2020
+ModuleVersion
+ModuleProduct               major.minor.build
+ModuleCompany               Orbital Shell
+ModulePackageReleaseNotes   
+ModulePackageUrl            https://orbitalshell.github.io/Orbital-Shell/
+ModulePackageTags           prompt git git-branch git-status bash linux shell interactive csharp netcore5 netstandard21 netcore31 cli command-line-tool command-line-parser command-line-interface
+orbitalshell-kernel-version 1.0.2
+ModuleToolNamespace         git     (env.tools.)
+ModuleToolVarSettingsName           (ModulePascalCaseID)

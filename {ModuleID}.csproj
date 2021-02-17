@@ -1,0 +1,70 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+	<TargetFramework>netcoreapp3.1</TargetFramework>
+    
+	<RootNamespace>OrbitalShell.Module.{ModuleID}</RootNamespace>
+    <AssemblyName>OrbitalShell.Module.{ModuleID}</AssemblyName>
+	<NeutralLanguage>en-US</NeutralLanguage>
+	<ApplicationIcon>assets\robotazteque.ico</ApplicationIcon>
+
+	<PackageId>OrbitalShell-Module-{ModuleID}</PackageId>
+    <IsPackable>true</IsPackable>
+    <Authors>{ModuleAuthors}</Authors>
+    <Company>{ModuleCompany}</Company>
+    <Product>{ModuleProduct}</Product>
+    <Description{ModuleDescription}</Description>    
+	<Copyright>{ModuleCopyright}</Copyright>
+    <Version>{ModuleVersion}</Version>
+    <InformationalVersion>{ModuleVersion}</InformationalVersion>
+    
+	<PackageReleaseNotes>{ModulePackageReleaseNotes}</PackageReleaseNotes>
+    <ApplicationIcon>assets\robotazteque.ico</ApplicationIcon>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageProjectUrl>{ModulePackageUrl}</PackageProjectUrl>
+    <RepositoryUrl>{RepositoryUrl}</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>{ModulePackageTags}</PackageTags>    
+    <PackageIcon>content\assets\robotazteque.png</PackageIcon>
+      
+	<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+  
+	<CopyLocalLockFileAssemblies>false</CopyLocalLockFileAssemblies>
+	
+  </PropertyGroup>
+
+    <ItemGroup>
+		<None Remove="assets\robotazteque.ico" />
+		<None Include="assets\robotazteque.ico">
+			<Pack>True</Pack>
+			<PackagePath>contentFiles/any/netcoreapp3.1/assets/;content/assets/</PackagePath>
+		</None>
+		<None Remove="assets\robotazteque.png" />
+		<None Include="assets\robotazteque.png">
+			<Pack>True</Pack>
+			<PackagePath>contentFiles/any/netcoreapp3.1/assets/;content/assets/</PackagePath>
+		</None>    
+
+		<None Include="LICENSE">
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+			<Pack>True</Pack>
+			<PackagePath>contentFiles/any/netcoreapp3.1/;content/</PackagePath>
+			<PackageCopyToOutput>true</PackageCopyToOutput>
+		</None>
+
+		<None Include="README.md">
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+			<Pack>True</Pack>
+			<PackagePath>contentFiles/any/netcoreapp3.1/;content/</PackagePath>
+			<PackageCopyToOutput>true</PackageCopyToOutput>
+		</None>	
+  </ItemGroup>
+	
+
+  <ItemGroup>
+	  <PackageReference Include="orbitalshell-kernel" Version="{orbitalshell-kernel-version}">
+		  <ExcludeAssets>contentfiles</ExcludeAssets>
+	  </PackageReference>
+  </ItemGroup>
+
+</Project>
