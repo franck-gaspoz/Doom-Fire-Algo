@@ -5,5 +5,5 @@
   "moduleDescription": "description of the module MyModule",
   "moduleProduct": "product description of the module MyModule",
   "modulePackageReleaseNotes": "make within new-module",
-  "moduleToolNamespace":  "my"
+  "moduleToolNamespace":  "my-module"
 }
