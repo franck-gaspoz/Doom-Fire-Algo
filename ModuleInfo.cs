@@ -8,7 +8,7 @@ using OrbitalShell.Lib;
 [assembly: ModuleTargetPlateform(TargetPlatform.Any)]
 [assembly: ModuleShellMinVersion({ModuleShellMinVersion})]
 [assembly: ModuleAuthors({ModuleAuthors})]
-namespace OrbitalShell.Module.PromptGitInfo
+namespace OrbitalShell.Module.{ModuleID}
 {
     public class ModuleInfo { }
 }
