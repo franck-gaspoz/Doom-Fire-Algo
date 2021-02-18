@@ -13,7 +13,7 @@
     <Authors>{ModuleAuthors}</Authors>
     <Company>{ModuleCompany}</Company>
     <Product>{ModuleProduct}</Product>
-    <Description{ModuleDescription}</Description>    
+    <Description>{ModuleDescription}</Description>    
 	<Copyright>{ModuleCopyright}</Copyright>
     <Version>{ModuleVersion}</Version>
     <InformationalVersion>{ModuleVersion}</InformationalVersion>
@@ -22,7 +22,7 @@
     <ApplicationIcon>assets\robotazteque.ico</ApplicationIcon>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageProjectUrl>{ModulePackageUrl}</PackageProjectUrl>
-    <RepositoryUrl>{RepositoryUrl}</RepositoryUrl>
+    <RepositoryUrl>{ModuleRepositoryUrl}</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
     <PackageTags>{ModulePackageTags}</PackageTags>    
     <PackageIcon>content\assets\robotazteque.png</PackageIcon>
@@ -62,7 +62,7 @@
 	
 
   <ItemGroup>
-	  <PackageReference Include="orbitalshell-kernel" Version="{orbitalshell-kernel-version}">
+	  <PackageReference Include="orbitalshell-kernel" Version="{OrbitalshellKernelVersion}">
 		  <ExcludeAssets>contentfiles</ExcludeAssets>
 	  </PackageReference>
   </ItemGroup>

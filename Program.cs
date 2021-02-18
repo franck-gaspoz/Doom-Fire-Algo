@@ -52,7 +52,7 @@ namespace OrbitalShell.Module.{ModuleID}
         /// enable or disable module
         /// </summary>
         [Command("enable/disable module {ModuleTitle}")]
-        public CommandVoidResult {ModulePascalCaseID}(
+        public CommandVoidResult {ModuleID}Com(
             CommandEvaluationContext context,
             [Option("e", "enable", "if true enable the module, otherwise disable it", true, true)] bool isEnabled = true
         )
