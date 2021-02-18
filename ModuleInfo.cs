@@ -6,8 +6,8 @@ using OrbitalShell.Lib;
 /// </summary>
 [assembly: ShellModule()]
 [assembly: ModuleTargetPlateform(TargetPlatform.Any)]
-[assembly: ModuleShellMinVersion({ModuleShellMinVersion})]
-[assembly: ModuleAuthors({ModuleAuthors})]
+[assembly: ModuleShellMinVersion("{ModuleShellMinVersion}")]
+[assembly: ModuleAuthors("{ModuleAuthors}")]
 namespace OrbitalShell.Module.{ModuleID}
 {
     public class ModuleInfo { }

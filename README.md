@@ -3,16 +3,16 @@ Module for Orbital Shell
 
 {ModuleDescription}
 
-![.NET](https://github.com/OrbitalShell/{ModuleID}/workflows/.NET/badge.svg)
-![last commit](https://img.shields.io/github/last-commit/orbitalshell/{ModuleID}?style=plastic)
-![releasever](https://img.shields.io/github/v/release/orbitalshell/{ModuleID}?style=plastic) 
-![releasedate](https://img.shields.io/github/release-date/orbitalshell/{ModuleID}?style=plastic) 
+![.NET](https://github.com/{ModuleRepositoryOwner}/{ModuleID}/workflows/.NET/badge.svg)
+![last commit](https://img.shields.io/github/last-commit/{ModuleRepositoryOwner}/{ModuleID}?style=plastic)
+![releasever](https://img.shields.io/github/v/release/{ModuleRepositoryOwner}/{ModuleID}?style=plastic) 
+![releasedate](https://img.shields.io/github/release-date/orbit{ModuleRepositoryOwner}alshell/{ModuleID}?style=plastic) 
 <br>
-![toplanguage](https://img.shields.io/github/languages/top/orbitalshell/{ModuleID})
-![lngcount](https://img.shields.io/github/languages/count/orbitalshell/{ModuleID})
+![toplanguage](https://img.shields.io/github/languages/top/orbi{ModuleRepositoryOwner}talshell/{ModuleID})
+![lngcount](https://img.shields.io/github/languages/count/{ModuleRepositoryOwner}/{ModuleID})
 <br>
-![codesize](https://img.shields.io/github/languages/code-size/orbitalshell/{ModuleID})
-![reposize](https://img.shields.io/github/repo-size/orbitalshell/{ModuleID})
+![codesize](https://img.shields.io/github/languages/code-size/{ModuleRepositoryOwner}/{ModuleID})
+![reposize](https://img.shields.io/github/repo-size/{ModuleRepositoryOwner}/{ModuleID})
 
 
 ### Usage
