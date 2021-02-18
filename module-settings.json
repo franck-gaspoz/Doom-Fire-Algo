@@ -1,0 +1,9 @@
+{
+  "moduleID": "MyModule",
+  "modulePackageID": "MyModule",
+  "moduleTitle": "my module Title",
+  "moduleDescription": "description of the module MyModule",
+  "moduleProduct": "product description of the module MyModule",
+  "modulePackageReleaseNotes": "make within new-module",
+  "moduleToolNamespace":  "my"
+}
