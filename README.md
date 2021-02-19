@@ -24,8 +24,8 @@ install into the shell:
 
 ### Preview
 
-{add a preview here}
-
+![preview node.js](https://raw.githubusercontent.com/franck-gaspoz/Doom-Fire-Algo/main/assets/68747470733a2f2f692e696d6775722e636f6d2f464f644345634e2e676966.gif)
+<br>preview of ASCII art javascript version from https://github.com/filipedeschamps/doom-fire-algorithm/tree/master/playground/doom-fire-algorithm-ascii-art
 
 ### Settings
 
