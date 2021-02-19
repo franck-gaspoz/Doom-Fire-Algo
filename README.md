@@ -21,6 +21,12 @@ install into the shell:
 ```shell
 > module -i orbitalshell-module-doomfirealgo
 ```
+run the command:
+```shell
+> doom-fire-algo
+# or
+> games-doom-fire-algo
+```
 
 ### Preview
 
