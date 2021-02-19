@@ -29,13 +29,7 @@ install into the shell:
 
 ### Settings
 
-namespace **env.com.doomfirealgo**
-
-variable | type | value
--- | -- | --
-isEnabled                          | bool            | true
-
-
+*no settings*
 
 <br><br><br><hr><br>
 
