@@ -16,53 +16,29 @@ namespace OrbitalShell.Module.DoomFireAlgo
     /// module commands : prompt git infos
     /// </summary>
     [Commands("a simple module for orbital shell that add a command running the famous doom fire algorithm (C# ANSI version) module commands")]
-    [CommandsNamespace(CommandNamespace.tools, ToolNamespace)]
-    [Hooks]
-    public class DoomFireAlgo : ICommandsDeclaringType
+    [CommandsNamespace(CommandNamespace.games)]
+    public class DoomFireAlgoCommands : ICommandsDeclaringType
     {
-        #region attributes 
-
-        public const string ToolNamespace = "doomFireAlgo";
-        public const string ToolVarSettingsName = "";
-        public const string VarIsEnabled = "isEnabled";
-        
-        string _namespace => Variables.Nsp(ShellEnvironmentNamespace.com + "", ToolNamespace, ToolVarSettingsName);
-
-        #endregion
-
-        #region init
-
-        /// <summary>
-        /// init module hook
-        /// </summary>
-        [Hook(Hooks.ModuleInit)]
-        public void Init(CommandEvaluationContext context)
-        {
-            // init settings
-            context.ShellEnv.AddNew(_namespace, VarIsEnabled, true, false);
-
-            // ... add your own inits here ...            
-        }
-
-        #endregion
+        public const string DefaultColorPalette = "";
 
         #region Command
 
         /// <summary>
         /// enable or disable module
         /// </summary>
-        [Command("enable/disable module Doom Fire Algorithm")]
-        public CommandVoidResult DoomFireAlgoCom(
+        [Command("runs an ASCII Doom Fire Algorithm that output an animation into the console")]
+        public CommandVoidResult DoomFireAlgo(
             CommandEvaluationContext context,
-            [Option("e", "enable", "if true enable the module, otherwise disable it", true, true)] bool isEnabled = true
+            [Option("w", "width", "width in characters", true, true)] int width = 100,
+            [Option("h", "height", "height in characters", true, true)] int height = 40,
+            [Option("d", "decay-delta", "decay delta", true, true)] int decayDelta = 3,
+            [Option(null, "color-palette", "color palette", true, true)] string colorPalette = DefaultColorPalette
         )
         {
-            context.Variables.SetValue(Variables.Nsp(VariableNamespace.env + "", _namespace), VarIsEnabled, isEnabled);
+
             return CommandVoidResult.Instance;
         }
 
-        // add your own hooks ...
-
-        #endregion                
+        #endregion
     }
 }
