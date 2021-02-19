@@ -19,7 +19,7 @@ a simple module for orbital shell that add a command running the famous doom fir
 
 install into the shell:
 ```shell
-> module -i orbitalshell-module-doom-fire-algo
+> module -i orbitalshell-module-doomfirealgo
 ```
 
 ### Preview
