@@ -10,20 +10,20 @@ using System.Linq;
 using OrbitalShell.Component.Console;
 using System.Collections.Generic;
 
-namespace OrbitalShell.Module.{ModuleID}
+namespace OrbitalShell.Module.DoomFireAlgo
 {
     /// <summary>
     /// module commands : prompt git infos
     /// </summary>
-    [Commands("{ModuleDescription} module commands")]
+    [Commands("a simple module for orbital shell that add a command running the famous doom fire algorithm (C# ANSI version) module commands")]
     [CommandsNamespace(CommandNamespace.tools, ToolNamespace)]
     [Hooks]
-    public class {ModuleID} : ICommandsDeclaringType
+    public class DoomFireAlgo : ICommandsDeclaringType
     {
         #region attributes 
 
-        public const string ToolNamespace = "{ModuleToolNamespace}";
-        public const string ToolVarSettingsName = "{ModuleToolVarSettingsName}";
+        public const string ToolNamespace = "doomFireAlgo";
+        public const string ToolVarSettingsName = "";
         public const string VarIsEnabled = "isEnabled";
         
         string _namespace => Variables.Nsp(ShellEnvironmentNamespace.com + "", ToolNamespace, ToolVarSettingsName);
@@ -51,8 +51,8 @@ namespace OrbitalShell.Module.{ModuleID}
         /// <summary>
         /// enable or disable module
         /// </summary>
-        [Command("enable/disable module {ModuleTitle}")]
-        public CommandVoidResult {ModuleID}Com(
+        [Command("enable/disable module Doom Fire Algorithm")]
+        public CommandVoidResult DoomFireAlgoCom(
             CommandEvaluationContext context,
             [Option("e", "enable", "if true enable the module, otherwise disable it", true, true)] bool isEnabled = true
         )

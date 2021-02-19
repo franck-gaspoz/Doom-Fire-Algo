@@ -6,9 +6,9 @@ using OrbitalShell.Lib;
 /// </summary>
 [assembly: ShellModule()]
 [assembly: ModuleTargetPlateform(TargetPlatform.Any)]
-[assembly: ModuleShellMinVersion("{ModuleShellMinVersion}")]
-[assembly: ModuleAuthors("{ModuleAuthors}")]
-namespace OrbitalShell.Module.{ModuleID}
+[assembly: ModuleShellMinVersion("1.0.1-beta4")]
+[assembly: ModuleAuthors("Orbital Shell team")]
+namespace OrbitalShell.Module.DoomFireAlgo
 {
     public class ModuleInfo { }
 }

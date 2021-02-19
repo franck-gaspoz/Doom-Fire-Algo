@@ -3,28 +3,28 @@
   <PropertyGroup>
 	<TargetFramework>netcoreapp3.1</TargetFramework>
     
-	<RootNamespace>OrbitalShell.Module.{ModuleID}</RootNamespace>
-    <AssemblyName>OrbitalShell.Module.{ModuleID}</AssemblyName>
+	<RootNamespace>OrbitalShell.Module.DoomFireAlgo</RootNamespace>
+    <AssemblyName>OrbitalShell.Module.DoomFireAlgo</AssemblyName>
 	<NeutralLanguage>en-US</NeutralLanguage>
 	<ApplicationIcon>assets\robotazteque.ico</ApplicationIcon>
 
-	<PackageId>OrbitalShell-Module-{ModuleID}</PackageId>
+	<PackageId>OrbitalShell-Module-DoomFireAlgo</PackageId>
     <IsPackable>true</IsPackable>
-    <Authors>{ModuleAuthors}</Authors>
-    <Company>{ModuleCompany}</Company>
-    <Product>{ModuleProduct}</Product>
-    <Description>{ModuleDescription}</Description>    
-	<Copyright>{ModuleCopyright}</Copyright>
-    <Version>{ModuleVersion}</Version>
-    <InformationalVersion>{ModuleVersion}</InformationalVersion>
+    <Authors>Orbital Shell team</Authors>
+    <Company>Orbital Shell</Company>
+    <Product>doom fire algorithm C# ANSI version orbital shell module</Product>
+    <Description>a simple module for orbital shell that add a command running the famous doom fire algorithm (C# ANSI version)</Description>    
+	<Copyright>(c) Orbital Shell 2020</Copyright>
+    <Version>1.0.0</Version>
+    <InformationalVersion>1.0.0</InformationalVersion>
     
-	<PackageReleaseNotes>{ModulePackageReleaseNotes}</PackageReleaseNotes>
+	<PackageReleaseNotes>make within new-module on 2 fev 21</PackageReleaseNotes>
     <ApplicationIcon>assets\robotazteque.ico</ApplicationIcon>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
-    <PackageProjectUrl>{ModulePackageUrl}</PackageProjectUrl>
-    <RepositoryUrl>{ModuleRepositoryUrl}</RepositoryUrl>
+    <PackageProjectUrl>https://orbitalshell.github.io/Orbital-Shell/</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/franck-gaspoz/Doom-Fire-Algo.git</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
-    <PackageTags>{ModulePackageTags}</PackageTags>    
+    <PackageTags>prompt git git-branch git-status bash linux shell interactive csharp netcore5 netstandard21 netcore31 cli command-line-tool command-line-parser command-line-interface</PackageTags>    
     <PackageIcon>content\assets\robotazteque.png</PackageIcon>
       
 	<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
@@ -62,7 +62,7 @@
 	
 
   <ItemGroup>
-	  <PackageReference Include="orbitalshell-kernel" Version="{OrbitalshellKernelVersion}">
+	  <PackageReference Include="orbitalshell-kernel" Version="1.0.2">
 		  <ExcludeAssets>contentfiles</ExcludeAssets>
 	  </PackageReference>
   </ItemGroup>

@@ -1,25 +1,25 @@
-﻿# {ModuleTitle}
+# Doom Fire Algorithm
 Module for Orbital Shell
 
-{ModuleDescription}
+a simple module for orbital shell that add a command running the famous doom fire algorithm (C# ANSI version)
 
-![.NET](https://github.com/{ModuleRepositoryOwner}/{ModuleID}/workflows/.NET/badge.svg)
-![last commit](https://img.shields.io/github/last-commit/{ModuleRepositoryOwner}/{ModulePackageID}?style=plastic)
-![releasever](https://img.shields.io/github/v/release/{ModuleRepositoryOwner}/{ModulePackageID}?style=plastic) 
-![releasedate](https://img.shields.io/github/release-date/{ModuleRepositoryOwner}/{ModulePackageID}?style=plastic) 
+![.NET](https://github.com/franck-gaspoz/DoomFireAlgo/workflows/.NET/badge.svg)
+![last commit](https://img.shields.io/github/last-commit/franck-gaspoz/Doom-Fire-Algo?style=plastic)
+![releasever](https://img.shields.io/github/v/release/franck-gaspoz/Doom-Fire-Algo?style=plastic) 
+![releasedate](https://img.shields.io/github/release-date/franck-gaspoz/Doom-Fire-Algo?style=plastic) 
 <br>
-![toplanguage](https://img.shields.io/github/languages/top/{ModuleRepositoryOwner}/{ModulePackageID})
-![lngcount](https://img.shields.io/github/languages/count/{ModuleRepositoryOwner}/{ModulePackageID})
+![toplanguage](https://img.shields.io/github/languages/top/franck-gaspoz/Doom-Fire-Algo)
+![lngcount](https://img.shields.io/github/languages/count/franck-gaspoz/Doom-Fire-Algo)
 <br>
-![codesize](https://img.shields.io/github/languages/code-size/{ModuleRepositoryOwner}/{ModulePackageID})
-![reposize](https://img.shields.io/github/repo-size/{ModuleRepositoryOwner}/{ModulePackageID})
+![codesize](https://img.shields.io/github/languages/code-size/franck-gaspoz/Doom-Fire-Algo)
+![reposize](https://img.shields.io/github/repo-size/franck-gaspoz/Doom-Fire-Algo)
 
 
 ### Usage
 
 install into the shell:
 ```shell
-> module -i {ModuleLowerID}
+> module -i orbitalshell-module-doom-fire-algo
 ```
 
 ### Preview
@@ -29,7 +29,7 @@ install into the shell:
 
 ### Settings
 
-namespace **{ModuleNamespace}**
+namespace **env.com.doomfirealgo**
 
 variable | type | value
 -- | -- | --
