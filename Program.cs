@@ -13,13 +13,87 @@ using System.Collections.Generic;
 namespace OrbitalShell.Module.DoomFireAlgo
 {
     /// <summary>
-    /// module commands : prompt git infos
+    /// module Doom Fire Algo Commands
     /// </summary>
     [Commands("a simple module for orbital shell that add a command running the famous doom fire algorithm (C# ANSI version) module commands")]
     [CommandsNamespace(CommandNamespace.games)]
     public class DoomFireAlgoCommands : ICommandsDeclaringType
     {
-        public const string DefaultColorPalette = "";
+        public const string DefaultColorPalette =
+
+            "░" +
+
+            "░" +
+
+            "░" +
+
+            "░" +
+
+            "░" +
+
+            "░" +
+
+            "░" +
+
+            "░" +
+
+            "░" +
+
+            "░" +
+
+            "░" +
+
+            "░" +
+
+            "▒" +
+
+            "▒" +
+
+            "▒" +
+
+            "▒" +
+
+            "▒" +
+
+            "▒" +
+
+            "▓" +
+
+            "▓" +
+
+            "▓" +
+
+            "▓" +
+
+            "▓" +
+
+            "▓" +
+
+            "▓" +
+
+            "▓" +
+
+            "█" +
+
+            "█" +
+
+            "█" +
+
+            "█" +
+
+            "█" +
+
+            "█" +
+
+            "█" +
+
+            "█" +
+
+            "█" +
+
+            "█"
+
+            ;
 
         #region Command
 
