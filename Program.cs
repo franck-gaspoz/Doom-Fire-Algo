@@ -1,14 +1,8 @@
 using OrbitalShell.Component.CommandLine.CommandModel;
-using OrbitalShell.Component.Shell.Module;
-using OrbitalShell.Component.Shell.Hook;
 using OrbitalShell.Component.Shell;
-using OrbitalShell.Component.Shell.Variable;
 using OrbitalShell.Component.CommandLine.Processor;
 using System;
-using System.IO;
-using System.Linq;
 using OrbitalShell.Component.Console;
-using System.Collections.Generic;
 using System.Threading;
 using System.Diagnostics;
 using System.Text;
@@ -43,6 +37,7 @@ namespace OrbitalShell.Module.DoomFireAlgo
             firePattern = firePattern.ToLower();
 
             var firePallete = firePattern.Split(PalettePatternSeparator);
+            var sb = new StringBuilder(width*height*20);
 
             if (!gray)
             {
@@ -106,7 +101,7 @@ namespace OrbitalShell.Module.DoomFireAlgo
             };
 
             void render() {
-                var sb = new StringBuilder();
+                sb.Clear();
                 sb.Append(ANSI.CUP());
 
                 for (var row = 0; row < height; row++)
@@ -153,10 +148,5 @@ namespace OrbitalShell.Module.DoomFireAlgo
 
         #endregion
 
-        #region private impl.
-
-
-
-        #endregion
     }
 }
