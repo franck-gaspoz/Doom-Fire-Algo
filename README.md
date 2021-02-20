@@ -27,8 +27,11 @@ run the command:
 # or
 > games-doom-fire-algo
 ```
+<br>
 
 play with parameters:
+
+<br>
 
 <img src="assets/help.png"/>
 
