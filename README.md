@@ -3,7 +3,7 @@ Module for Orbital Shell
 
 a simple module for orbital shell that add a command running the famous doom fire algorithm (C# ANSI version)
 
-![.NET](https://github.com/franck-gaspoz/DoomFireAlgo/workflows/.NET/badge.svg)
+[![.NET](https://github.com/franck-gaspoz/Doom-Fire-Algo/actions/workflows/dotnet.yml/badge.svg)](https://github.com/franck-gaspoz/Doom-Fire-Algo/actions/workflows/dotnet.yml)
 ![last commit](https://img.shields.io/github/last-commit/franck-gaspoz/Doom-Fire-Algo?style=plastic)
 ![releasever](https://img.shields.io/github/v/release/franck-gaspoz/Doom-Fire-Algo?style=plastic) 
 ![releasedate](https://img.shields.io/github/release-date/franck-gaspoz/Doom-Fire-Algo?style=plastic) 
