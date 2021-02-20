@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "DoomFireAlgo": {
+      "commandName": "Executable",
+      "executablePath": "cmd",
+      "commandLineArgs": "/C C:/Users/franc/Documents/ORBITAL-SHELL/OrbitalShell/OrbitalShell-CLI/bin/Debug/netcoreapp3.1/orbsh.exe"
+    }
+  }
+}
