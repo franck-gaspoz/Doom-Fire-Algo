@@ -43,6 +43,7 @@ play with parameters:
 ### Preview
 
 ![preview doom-fire-algo](assets/doom-fire-algo2.gif)
+<br>*a debug view from visual studio debuger (conhost)*
 
 <br>
 
