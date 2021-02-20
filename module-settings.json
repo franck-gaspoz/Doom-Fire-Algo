@@ -1,0 +1,8 @@
+{
+   "modulePackageID": "Doom-Fire-Algo",
+   "moduleTitle": "Doom Fire Algorithm",
+   "moduleDescription": "a simple module for orbital shell that add a command running the famous doom fire algorithm (C# ANSI version)",
+   "moduleProduct": "doom fire algorithm C# ANSI version orbital shell module",
+   "modulePackageReleaseNotes": "make within new-module on 2 fev 21 > new-module DoomFireAlgo https://github.com/franck-gaspoz/Doom-Fire-Algo.git -i \"module-settings.json\" -s",
+   "moduleToolNamespace":  "doomFireAlgo"
+}
