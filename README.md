@@ -13,7 +13,12 @@ a simple module for orbital shell that add a command running the famous doom fir
 <br>
 ![codesize](https://img.shields.io/github/languages/code-size/franck-gaspoz/Doom-Fire-Algo)
 ![reposize](https://img.shields.io/github/repo-size/franck-gaspoz/Doom-Fire-Algo)
+<br>
+[![licence mit](https://img.shields.io/badge/licence-MIT-blue.svg)](license)
 
+<br>
+
+[![NuGetVersion](https://img.shields.io/nuget/v/OrbitalShell-Module-DoomFireAlgo.svg)](https://www.nuget.org/packages/OrbitalShell-Module-DoomFireAlgo) ![NuGetDownloads](https://img.shields.io/nuget/dt/OrbitalShell-Module-DoomFireAlgo.svg)
 
 ### Usage
 
